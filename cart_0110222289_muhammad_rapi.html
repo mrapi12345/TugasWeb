@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+</head>
+<body>
+  <header align="center">
+    <nav>
+      <h2>Toko pedia</h2>
+      <ul>
+        <li><a href="#">Category 1</a></li>
+        <li><a href="#">Category 2</a></li>
+        <li><a href="#">Category 3</a></li>
+      </ul>
+      <div>
+        <img src="./img/cart-outline.svg" width="20" />
+        <span>Cart (1)</span>
+      </div>
+    </nav>
+  </header>
+  <hr>
+  <main>
+    <section>
+      <h1>Your Cart</h1>
+      <table width="40%" border="1" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr align="center">
+            <td>
+              <img src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/10/thicker-diagonal.png" alt="noimage" width="100">
+              <div>
+                <span>T-shirt</span>
+                <br>
+                <span>Size: Small</span>
+              </div>
+            </td>
+            <td>
+              <strong>$20.00</strong>
+            </td>
+            <td>
+              <input type="number" name="qty" id="qty" value="1" min="1">
+            </td>
+          </tr>
+          <tr align="right">
+            <td colspan="3">
+              <p>
+                Subtotal: <strong>$20.00</strong>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
+    </section>
+    <br>
+    <section>
+      <table width="40%" border="0" >
+        <th colspan="2">
+          Summary (1 Item)
+        </th>
+        <tr>
+          <td>Subtotal</td>
+          <td>$20.00</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Est. Taxes</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Total</strong>
+          </td>
+          <td>
+            <strong>$20.00</strong>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <a href="#" rel="noopener noreferrer">
+              <button type="button">Checkout</button>
+            </a>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </main>
+  <br>
+  <hr>
+  <footer align="center">
+    <section>
+      <div>
+        <strong>Toko pedia</strong>
+        <div>
+            <img src="./img/cart-outline.img" width="20" />
+        </div>
+      </div>
+      <ul>
+        <li><a href="#">Category 1</a></li>
+        <li><a href="#">Category 2</a></li>
+        <li><a href="#">Category 3</a></li>
+      </ul>
+    </section>
+    <section>
+      <p>Stay in Touch! Join our Newsletter</p>
+      <div>
+        <input type="text" placeholder="Enter Email">
+        <button type="button">Subscribe</button>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
