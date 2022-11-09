@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    border-color: lightgoldenrodyellow;
+    padding: 20px;
+}
+
+.container img{
+    width: 200px;
+}

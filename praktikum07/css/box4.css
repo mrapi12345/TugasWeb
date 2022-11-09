@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Baris 1 */
+
+/* Anak 1 : kolom 1 kuning */
+.container .kotak:nth-child(1){
+    background-color: yellow;
+    width: 20%;
+}
+
+/* Anak 2 : kolom 1 kuning */
+.container .kotak:nth-child(2){
+    background-color: orange;
+    width: 79%;
+}
+
+.kotak {
+    height: 100px;
+}
+
+/* Baris 2 */
+
+/* Anak 1 : ijo */
+.container .isi:nth-child(1){
+    background-color: greenyellow;
+    width: 20%;
+}
+
+.container .isi:nth-child(2){
+    background-color: grey;
+    width: 59%;
+}
+
+.container .isi:nth-child(3){
+    background-color: aqua;
+    width: 20%;
+}
+
+.isi {
+    height: 400px;
+}
+
+.kotak-bawah{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Baris 3 */
+.ko
